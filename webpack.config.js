@@ -11,6 +11,10 @@ module.exports = {
     filename: 'bundle.js',
     path: DIST_DIR,
   },
+  watch: true,
+  resolve: {
+    extensions: ['.js', '.jsx'],
+  },
   module: {
     loaders: [
       {
