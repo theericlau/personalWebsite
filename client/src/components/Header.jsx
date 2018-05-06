@@ -1,21 +1,37 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import {Link} from 'react-router-dom';
 
-const Header = props => {
-  return (
-    <header>
-      <nav>
-        <ul>
-          <li><Link to='/'>Portfolio</Link></li>
-          <li><Link to='/photography'>Photography</Link></li>
-          <li><Link to='/about'>About</Link></li>
-          <li><Link to='/contact'>Contact</Link></li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
+class Header extends Component {
+  render() {
+    return (
+      <ul className="header">
+        <li>
+          {/* <Link to="/portfolio" className="header-link"> */}
+            <span>
+              PORTFOLIO
+              </span>
+          {/* </Link> */}
+        </li>
+        <li>
+          {/* <Link to="/photography" className="header-link"> */}
+            <span>PHOTOGRAPHY</span>
+          {/* </Link> */}
+        </li>
+        <li>
+          {/* <Link to="/about" className="header-link"> */}
+            <span>ABOUT</span>
+          {/* </Link> */}
+        </li>
+        <li>
+          {/* <Link to="/contact" className="header-link"> */}
+            <span>CONTACT</span>
+          {/* </Link> */}
+        </li>
+      </ul>
+    )
+  }
+}
 
 Header.propTypes = {
 

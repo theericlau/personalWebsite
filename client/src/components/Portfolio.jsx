@@ -1,13 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Header from './Header';
 
-const Portfolio = props => {
-  return (
-    <div>
-      Portfolio
-    </div>
-  );
-};
+
+class Portfolio extends Component {
+  componentDidMount() {
+    document.title = 'Eric Lau — Portfolio';
+  }
+
+  render() {
+    return (
+      <div className="component-header">
+        <Header />
+        Portfolio
+      </div>
+    );
+  }
+}
 
 Portfolio.propTypes = {
 
