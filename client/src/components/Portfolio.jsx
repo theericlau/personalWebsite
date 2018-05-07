@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Header from './Header';
+import NavBar from './NavBar';
 
 
 class Portfolio extends Component {
@@ -11,7 +11,7 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="component-header">
-        <Header />
+        <NavBar />
         Portfolio
       </div>
     );

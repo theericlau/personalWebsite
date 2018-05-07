@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import Header from './Header';
+import NavBar from './NavBar';
 import Home from './Home';
 import PhotoGrid from './PhotoGrid';
 
@@ -25,8 +25,8 @@ class App extends Component {
   render() {
     console.log('im the props', this.props);
     return (
-      <div>
-        <Header />
+      <div className="websiteTemplate">
+        <NavBar />
         <PhotoGrid photos={this.state.photos}/>
       </div>
     )

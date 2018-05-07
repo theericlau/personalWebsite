@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 class Photo extends Component {
   render() {
     return (
-      <div>
-
+      <div className="photo">
+        {this.props.photo}
       </div>
     );
   }

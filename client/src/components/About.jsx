@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Header from './Header';
+import NavBar from './NavBar';
 
 
 class About extends Component {
@@ -11,7 +11,7 @@ class About extends Component {
   render() {
     return (
       <div className="component-header wipe">
-        <Header />
+        <NavBar />
         About
       </div>
     );
