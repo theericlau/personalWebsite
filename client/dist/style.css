@@ -1,0 +1,58 @@
+li {
+  list-style: none;
+  letter-spacing: 1.2px;
+}
+body {
+  font-family: brandon-grotesque, sans-serif;
+}
+
+#main-menu {
+  padding: 0;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0px;
+  margin: 0px 30px;
+}
+
+.websiteTemplate {
+  display: flex;
+}
+
+.navbar-header {
+  padding: 30px 30px 15px;
+  font-size: 20px;
+  font-weight: 10px;
+}
+
+.header {
+  width: 225px;
+  text-align: start;
+}
+
+.photo-grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.photo {
+  margin: 3px 3px 3px 3px;
+  background-color: pink;
+  width: 24%;
+}
+
+.footer {
+  margin: 0 30px;
+}
+.social-icon-block {
+  display:flex;
+  width: 100px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.social-ico {
+  height: 20px!important;
+}
